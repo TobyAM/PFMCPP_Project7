@@ -5,7 +5,7 @@
 Project 7: Part 1/1
  video: Chapter 4 Part 2 
 
-Create a branch named Part1
+Create a branch named Part1 
 
 Purpose:  This project will teach you how to read existing code someone else has already written, and to get it working again.  Consider this project the "midterm" of the course.
 
@@ -49,8 +49,6 @@ it's very easy to mess this task up.
  9) When you compare your output with the expected output, it is fine if the items counts don't match exactly.   It's not important if your DragonSlayer has 5 helpful items, but the expected output shows 3. 
  */
 
-#include "Item.h"
-#include "Character.h"
 #include "Dwarf.h"
 #include "Paladin.h"
 #include "Dragon.h"
