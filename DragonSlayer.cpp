@@ -8,7 +8,8 @@ Character( hp, armor_, 4),
 attackItem(new AttackItem),
 name(name_)
 {
-
+    helpfulItems = makeHelpfulItems(2);
+    defensiveItems = makeDefensiveItems(1);
 }
 
 //DragonSlayer::getName

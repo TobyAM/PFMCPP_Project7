@@ -6,8 +6,8 @@ Dwarf::Dwarf( std::string name_, int hitPoints, int armor) :
 Character(hitPoints, armor, 4),
 name(name_)
 {
-    helpfulItems = makeHelpfulItems(5);
-    defensiveItems = makeDefensiveItems(1);
+    helpfulItems = makeHelpfulItems(9);
+    defensiveItems = makeDefensiveItems(12);
 }
 
 //Dwarf::getName
