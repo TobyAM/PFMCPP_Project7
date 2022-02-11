@@ -25,6 +25,7 @@ void DragonSlayer::attack(Character& other)
         if (dragon->getHP() > 0 && attackItem != nullptr)
         {
             attackItem->use(this);
+            attackItem.reset();
         }
         // assert(false);
         //DragonSlayers get a 10x boost when attacking dragons, from their attack item.
